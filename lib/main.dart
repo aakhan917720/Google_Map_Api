@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_map_api/screens/home_screen.dart';
+import 'package:google_map_api/screens/osm_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: const OsmScreen(),
     );
   }
 }
