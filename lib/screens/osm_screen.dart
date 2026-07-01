@@ -208,7 +208,7 @@ class _OsmScreenState extends State<OsmScreen> {
         child: const Icon(Icons.my_location, color: Colors.white),
         onPressed: () {
           _mapController.move(
-            const LatLng(37.0902, 95.7129),
+            const LatLng(34.1983, 72.0304),
             14.0,
           );
         },

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_map_api/screens/convert_latlang_to_adress.dart';
+import 'package:google_map_api/screens/flutter_map_search_location.dart';
 import 'package:google_map_api/screens/osm_screen.dart';
 
 void main() {
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const OsmScreen(),
+      home: const FlutterMapSearchLocation(),
     );
   }
 }
